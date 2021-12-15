@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+# Função que filtra os elementos de um dataframe se ele é treino, validação ou teste
 def get_features_target_data(df_original, indexes_path):
 
     df = df_original.copy()
@@ -16,11 +17,13 @@ def get_features_target_data(df_original, indexes_path):
 
     return X, y
 
+# Função que imprime os shapes dos conjuntos de X e y
 def print_shape(X, y, label):
     print(f'-- {label} --')
     print('X (shape): ', X.shape)
     print('y: ', len(y))
 
+# Função que retorna os conjuntos de dados de treino, validação e teste dos arquivos CSV gerados pelo notebook data_split.ipynb
 def get_train_val_set_data(df_original):
 
     X_train, y_train = get_features_target_data(df_original, '../dataset/Data/train_indexes.csv')
