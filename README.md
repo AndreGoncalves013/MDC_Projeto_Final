@@ -21,7 +21,6 @@ O nosso grupo TD2M (Talk Data to Me) escolheu o problema de [Music Genre Classif
   Instale o [git](https://git-scm.com/downloads) na sua máquina e siga o [tutorial da criação da chave ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) para poder clonar os arquivos na sua máquina 
     2. Download do arquivo zip <br>
   Também a opção de fazer o download de todo o projeto em zip. Baixe o mesmo e extraia os seus arquivos no seu diretório de trabalho. 
-  <br>
 2. **Preparando os dados para modelagens**<br>
   Caso queira baixar os arquivos de dados diretamente do kaggle, siga o passo a passo abaixo:
     1.  Download dos arquivos do Kaggle<br>
@@ -31,6 +30,5 @@ O nosso grupo TD2M (Talk Data to Me) escolheu o problema de [Music Genre Classif
     3.  Dividindo os dados em conjuntos de treino, validação e teste<br>
   Como parte da disciplina, é necessário que todos os grupos que escolheram o problema de Music Genre Classification precisassem alinhar quais exemplos de dados serão utlizados no conjunto de treino, validação e teste para que os resultados possam ser mais comparáveis entre os grupos. <br>
   Para isso, o código disponível em _data_split.ipynb_ faz a divisão dos dados salvando o nome dos arquivos que ficaram em cada um dos conjuntos de dados em csvs separados. Estes são depois utilizados na função _get_train_val_set_data_ em _utils.py_ para garantir que todos do grupo usassem os dados certos em seus modelos.
-  <br>
 3. **Executando os códigos dos modelos**<br>
 
