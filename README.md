@@ -30,5 +30,10 @@ O nosso grupo TD2M (Talk Data to Me) escolheu o problema de [Music Genre Classif
     3.  Dividindo os dados em conjuntos de treino, validação e teste<br>
   Como parte da disciplina, é necessário que todos os grupos que escolheram o problema de Music Genre Classification precisassem alinhar quais exemplos de dados serão utlizados no conjunto de treino, validação e teste para que os resultados possam ser mais comparáveis entre os grupos. <br>
   Para isso, o código disponível em _data_split.ipynb_ faz a divisão dos dados salvando o nome dos arquivos que ficaram em cada um dos conjuntos de dados em csvs separados. Estes são depois utilizados na função _get_train_val_set_data_ em _utils.py_ para garantir que todos do grupo usassem os dados certos em seus modelos.
-3. **Executando os códigos dos modelos**<br>
+3. **Executando os códigos das análises exploratórias e dos modelos**<br>
+Para excutar os códigos na pasta _src_ basta executar célula a céluda dos seus respectivos Jupyter Notebooks. Abaixo uma descrição de cada um dos códigos disponíveis:
+* _eda.ipynb_: arquivo que contém todas as análises exploratórias feitas pelo grupo.
+* _baseline_csv_dataset.ipynb_: arquivo que contém o desenvolvimento do baseline utilizando um modelo de Suport Vector Machine para classificação.
+* _image_dataset.ipynb_: arquivo que contém os modelos de redes neurais treinadas para classificação das imagens em espectrograma de mel.
+* _audio_dataset.ipynb_: arquivo que contém o modelo de rede YAMNEt utilizado como extrator de features para uma classificação com SVM.
 
